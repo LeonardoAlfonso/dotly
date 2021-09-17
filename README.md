@@ -15,12 +15,7 @@
 
 ## Installation
 
-Using wget
-```bash
-bash <(wget -qO- https://raw.githubusercontent.com/CodelyTV/dotly/HEAD/installer)
-```
-
 Using curl
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/LeonardoAlfonso/dotly/HEAD/installer)
+bash <(curl -s https://raw.githubusercontent.com/LeonardoAlfonso/dotly/simple_dotly/installer)
 ```
