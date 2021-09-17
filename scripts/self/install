@@ -12,7 +12,6 @@ script::depends_on docpars fzf zsh
 ##?    install
 docs::parse "$@"
 
-##test
 output::answer "Creating dotfiles structure"
 "$DOTLY_PATH/bin/dot" dotfiles create | log::file "Creating dotfiles structure" || exit 1
 
