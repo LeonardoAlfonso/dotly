@@ -4,7 +4,7 @@ source "$DOTLY_PATH/scripts/core/_main.sh"
 
 export ZIM_HOME="$DOTLY_PATH/modules/zimfw"
 
-script::depends_on docpars fzf zsh
+script::depends_on fzf zsh
 
 ##? Install dotly and setup dotfiles
 ##?
