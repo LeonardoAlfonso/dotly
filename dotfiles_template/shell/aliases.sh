@@ -3,8 +3,7 @@ alias sudo='sudo '
 
 alias ..="cd .."
 alias ...="cd ../.."
-alias ll="ls -l"
-alias la="ls -la"
+alias ll="ls -la"
 alias ~="cd ~"
 alias dotfiles='cd $DOTFILES_PATH'
 
@@ -23,8 +22,8 @@ alias gb="git branch"
 alias gl='$DOTLY_PATH/bin/dot git pretty-log'
 
 # Utils
-alias k='kill -9'
-alias i.='(idea $PWD &>/dev/null &)'
+alias i.='(idea64.exe $PWD &>/dev/null &)'
+alias ps.='(phpstorm64.exe $PWD &>/dev/null &)'
+alias ws.='(webstorm.exe $PWD &>/dev/null &)'
 alias c.='(code $PWD &>/dev/null &)'
 alias o.='open .'
-alias up='dot package update_all'
