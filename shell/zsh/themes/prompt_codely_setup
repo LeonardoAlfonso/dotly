@@ -67,7 +67,7 @@ prompt_codely_setup() {
     PS1="${prompt_codely_status} \$(prompt_codely_pwd) "
   else
 #    PS1="${prompt_codely_status} \$(prompt_codely_pwd)\$(prompt_codely_git)%f "
-    PS1="$(prompt_codely_pwd) \$(prompt_codely_git) ${prompt_codely_status} %f "
+    PS1="$(prompt_codely_pwd) \$(prompt_codely_git)${prompt_codely_status} %f "
     # PS1='%F{33}%1d${(e)git_info[prompt]}%f \${prompt_codely_status} %f '
   fi
 
