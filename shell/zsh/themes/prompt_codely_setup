@@ -39,7 +39,7 @@ prompt_codely_pwd() {
     home_relative) local -r prompt_dir=$(print -rD "$PWD") ;;
   esac
 
-  print -n "%F{$pwd_color}${prompt_dir}"
+  print -n "%F{33}%1d"
 }
 
 prompt_codely_git() {
